@@ -70,7 +70,7 @@ Borrow     = (~A) & B
 ---
 
 ### 4.2 Testbench  
-**File:** `scr/test/halfsubtractor_tb.v`  
+**File:** `sim/test/halfsubtractor_tb.v`  
 Uses all input combinations (00, 01, 10, 11) to verify the Half Subtractor and generate waveform output.
 
 ---
@@ -79,9 +79,8 @@ Uses all input combinations (00, 01, 10, 11) to verify the Half Subtractor and g
 **Folder:** `sim/`  
 Contains:
 
-- `waveform.png` → Simulation waveform
-- `dump.vcd` → GTKWave compatible signal file
-
+- `halfSubtractorwave.png` → Simulation waveform
+- 
 ---
 
 ### 4.4 Theory Documents  
@@ -97,21 +96,6 @@ Useful for academic reports.
 ---
 
 ## 5. How to Run the Simulation
-
-### Using Icarus Verilog
-
-```
-iverilog -o output scr/rtl/halfsubtractor.v scr/test/halfsubtractor_tb.v
-vvp output
-```
-
-View waveform using GTKWave:
-
-```
-gtkwave dump.vcd
-```
-
----
 
 ### Using ModelSim / QuestaSim
 
