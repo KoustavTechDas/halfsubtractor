@@ -20,18 +20,20 @@ halfsubtractor/
 ├── scr/
 │   ├── rtl/
 │   │   └── halfsubtractor.v
-│   └── test/
-│       └── halfsubtractor_tb.v
 │
 ├── sim/
-│   ├── waveform.png
-│   └── dump.vcd
-│
+│   ├── result/
+|       ├──images/
+|          └──halfSubtractorSchematic.png
+|          └──halfSubtractorgatelevelSchematic.png
+|          └──halfSubtractorwave.png
+│   ├── testbench/
+|       └──halfSubtractor_tb.v
+|
+|
 ├── theory/
-│   ├── images/
-│   │   ├── truth_table.png
-│   │   ├── block_diagram.png
-│   └── documentation.pdf
+│   └── halfSubtractor.jpg
+
 │
 └── README.txt
 ```
@@ -41,13 +43,13 @@ halfsubtractor/
 ## 3. Included Images
 
 ### Block Diagram  
-![Block Diagram](theory/images/block_diagram.png)
+![Theory](theory/halfSubtractor.jpg)
 
-### Truth Table  
-![Truth Table](theory/images/truth_table.png)
+### Schematic  
+![Schematic](sim/result/images/halfSubtractorSchematic.png)
 
 ### Simulation Waveform  
-![Simulation Waveform](sim/waveform.png)
+![Simulation Waveform](sim/result/images/halfSubtractorwave.png)
 
 ---
 
