@@ -75,11 +75,12 @@ Uses all input combinations (00, 01, 10, 11) to verify the Half Subtractor and g
 ---
 
 ### 4.3 Simulation Files  
-**Folder:** `sim/`  
-Contains:
+**Folder:** `sim/result`  
+Contains: images of the simulation
 
 - `halfSubtractorwave.png` → Simulation waveform
-- 
+- `halfSubtractorgatelevelSchematic.png` → Gate level Schematic
+- `halfSubtractorSchematic.png` → Schematic
 ---
 
 ### 4.4 Theory Documents  
