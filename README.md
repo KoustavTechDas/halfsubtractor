@@ -19,7 +19,7 @@ This project is useful for students learning digital logic and HDL design.
 halfsubtractor/
 ├── scr/
 │   ├── rtl/
-│   │   └── halfsubtractor.v
+│       └── halfsubtractor.v
 │
 ├── sim/
 │   ├── result/
@@ -33,7 +33,6 @@ halfsubtractor/
 |
 ├── theory/
 │   └── halfSubtractor.jpg
-
 │
 └── README.txt
 ```
@@ -95,20 +94,8 @@ Useful for academic reports.
 
 ---
 
-## 5. How to Run the Simulation
 
-### Using ModelSim / QuestaSim
-
-```
-vlog scr/rtl/*.v
-vlog scr/test/*.v
-vsim halfsubtractor_tb
-run -all
-```
-
----
-
-## 6. Purpose
+## 5. Purpose
 
 This project demonstrates:
 
@@ -120,7 +107,7 @@ This project demonstrates:
 
 ---
 
-## 7. Author
+## 6. Author
 
 **Koustav Das**  
 Electronics • Verilog • Digital Logic • Embedded Systems
