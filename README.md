@@ -48,6 +48,9 @@ halfsubtractor/
 ### Schematic  
 ![Schematic](sim/result/images/halfSubtractorSchematic.png)
 
+### Gate level Schematic
+![Gate level Schematic](sim/result/images/halfSubtractorgatelevelSchematic.png)
+
 ### Simulation Waveform  
 ![Simulation Waveform](sim/result/images/halfSubtractorwave.png)
 
