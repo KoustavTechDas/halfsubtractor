@@ -65,7 +65,6 @@ Contains the Verilog module implementing:
 Difference = A ^ B
 Borrow     = (~A) & B
 ```
-
 ---
 
 ### 4.2 Testbench  
@@ -94,7 +93,6 @@ Includes conceptual materials:
 Useful for academic reports.
 
 ---
-
 
 ## 5. Purpose
 
